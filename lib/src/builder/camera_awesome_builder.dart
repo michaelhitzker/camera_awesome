@@ -312,9 +312,7 @@ class _CameraWidgetBuilder extends State<CameraAwesomeBuilder>
               ),
             ),
             Positioned.fill(
-              child: SafeArea(
-                child: widget.builder(snapshot.requireData),
-              ),
+              child: widget.builder(snapshot.requireData),
             ),
           ],
         );
